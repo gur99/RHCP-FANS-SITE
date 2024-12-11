@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="/home/gur/Documents/Ruppin/CSY2/SemesterA/front_end_projects/FrontEnd_Assignment4/app.css">
+    <title>Contact-Us</title>
+</head>
+
+<body>
+    <nav>
+        <div class="flex-nav">
+
+            <div>
+                <a href="/home/gur/Documents/Ruppin/CSY2/SemesterA/front_end_projects/FrontEnd_Assignment4/home.html"><img
+                        src="images/rhcp_rotdc_logo2.png" alt="something went wrong"></a>
+            </div>
+            <div><a
+                    href="/home/gur/Documents/Ruppin/CSY2/SemesterA/front_end_projects/FrontEnd_Assignment4/About.html">ABOUT</a>
+            </div>
+            <div>
+                <a
+                    href="/home/gur/Documents/Ruppin/CSY2/SemesterA/front_end_projects/FrontEnd_Assignment4/Albums.html">ALBUMS</a>
+            </div>
+            <div><a
+                    href="/home/gur/Documents/Ruppin/CSY2/SemesterA/front_end_projects/FrontEnd_Assignment4/Tour.html">TOUR</a>
+            </div>
+            <div><a
+                    href="/home/gur/Documents/Ruppin/CSY2/SemesterA/front_end_projects/FrontEnd_Assignment4/Merch.html">MERCH</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="form-container">
+
+
+        <h2>Contact-Us Form</h2>
+        <form>
+
+            <div class="form-group">
+                <label for="fullName">Full name:<span class="required">*</span></label>
+
+                <input type="text" id="fullName" name="fullName" required placeholder="Enter your Full name"
+                    maxlength="20">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:<span class="required">*</span></label>
+                <input type="text" id="eamil" name="email" required placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="" disabled selected>Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+
+            <div class="form-group-inline">
+
+                <div>
+                    <label>How Many times have you been in a concert of RHCP?</label>
+                </div>
+
+                <input type="radio" id="never" name="times_in_concert" value="0">
+                <label for="0">Never</label><br>
+                <input type="radio" id="1" name="times_in_concert" value="1">
+                <label for="1">1</label><br>
+                <input type="radio" id="2" name="times_in_concert" value="2">
+                <label for="2">2</label><br>
+                <input type="radio" id="3" name="times_in_concert" value="3">
+                <label for="3">3 or more</label><br>
+            </div>
+
+
+
+            <div class="form-group">
+                <label for="messagebox">Message<span class="required">*</span></label>
+                <textarea cols="50" rows="5" id="messagebox" required></textarea>
+            </div>
+
+            <div class="form-group-inline">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Subscribe to our newsletter</label>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+
+
+    <footer>
+
+        <a href="https://www.instagram.com/chilipeppers/">
+            <img src="images/icons/1161953_instagram_icon.png" alt="instagram">
+        </a>
+
+        <a href="https://twitter.com/chilipeppers">
+            <img src="images/icons/5305170_bird_social media_social network_tweet_twitter_icon.png" alt="twitter">
+        </a>
+        <a href="https://www.facebook.com/ChiliPeppers/">
+            <img src="images/icons/104498_facebook_icon.png" alt="facebook">
+        </a>
+
+
+    </footer>
+
+</body>
+
+</html>
